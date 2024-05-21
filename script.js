@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add click event listeners to the banners
     document.querySelector('.left-banner').addEventListener('click', () => {
-        window.open('https://impression.appsflyer.com/id519684662?c=scriptGIT&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8hm', '_blank');
+        window.open('https://impression.appsflyer.com/com.bet365Wrapper.Bet365_Application?c=scriptGIT&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8hm', '_blank');
     });
     document.querySelector('.right-banner').addEventListener('click', () => {
-        window.open('https://impression.appsflyer.com/id519684662?c=scriptGIT&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8h', '_blank');
+        window.open('https://impression.appsflyer.com/com.bet365Wrapper.Bet365_Application?c=scriptGIT&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8h', '_blank');
     });
 });
 function apssflyercallIOS() {
@@ -46,7 +46,7 @@ function apssflyercallIOS() {
 
 function apssflyercallAND() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://impression.appsflyer.com/com.bet365Wrapper.Bet365_Application?c=videoOverlay&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8h', true);
+    xhr.open('GET', 'https://impression.appsflyer.com/com.bet365Wrapper.Bet365_Application?c=SCRIPTGIT&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8h', true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             console.log('Response from apssflyercall:', xhr.responseText);

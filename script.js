@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 function apssflyercallIOS() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://impression.appsflyer.com/id519684662?c=videoOverlay&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8h', true);
+    xhr.open('GET', 'https://impression.appsflyer.com/com.bet365Wrapper.Bet365_Application?c=videoOverlay&affiliate=365_03080943&pid=playhilllto_int&af_siteid=TesteFilipeNinja&af_c_id=TesteFilipeNinja&af_adset_id=TesteFilipeNinja&af_adset=TesteFilipeNinja&af_ad_id=TesteFilipeNinja&af_viewthrough_lookback=8h', true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             console.log('Response from apssflyercall:', xhr.responseText);
